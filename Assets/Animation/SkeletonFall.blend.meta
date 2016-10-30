@@ -1,0 +1,319 @@
+fileFormatVersion: 2
+guid: 53771bec0870f3a4c9be8b4cbd67f842
+timeCreated: 1477616822
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arm_lower_l
+    100002: arm_lower_r
+    100004: arm_upper_l
+    100006: arm_upper_r
+    100008: foot1_l
+    100010: foot1_r
+    100012: foot2_l
+    100014: foot2_r
+    100016: foot_ik_l
+    100018: foot_ik_r
+    100020: hand_l
+    100022: hand_r
+    100024: head
+    100026: jaw
+    100028: knee_pole_l
+    100030: knee_pole_r
+    100032: leg_lower_l
+    100034: leg_lower_r
+    100036: leg_upper_l
+    100038: leg_upper_r
+    100040: neck1
+    100042: neck2
+    100044: root
+    100046: shoulder_l
+    100048: shoulder_r
+    100050: Skeleton
+    100052: //RootNode
+    100054: SkeletonRig
+    100056: torso1
+    100058: torso2
+    100060: torso3
+    400000: arm_lower_l
+    400002: arm_lower_r
+    400004: arm_upper_l
+    400006: arm_upper_r
+    400008: foot1_l
+    400010: foot1_r
+    400012: foot2_l
+    400014: foot2_r
+    400016: foot_ik_l
+    400018: foot_ik_r
+    400020: hand_l
+    400022: hand_r
+    400024: head
+    400026: jaw
+    400028: knee_pole_l
+    400030: knee_pole_r
+    400032: leg_lower_l
+    400034: leg_lower_r
+    400036: leg_upper_l
+    400038: leg_upper_r
+    400040: neck1
+    400042: neck2
+    400044: root
+    400046: shoulder_l
+    400048: shoulder_r
+    400050: Skeleton
+    400052: //RootNode
+    400054: SkeletonRig
+    400056: torso1
+    400058: torso2
+    400060: torso3
+    4300000: Skeleton
+    7400000: Default Take
+    7400002: SkeletonFall
+    7400004: SkeletonFall0
+    9500000: //RootNode
+    13700000: Skeleton
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: SkeletonFall0
+      takeName: SkeletonFall
+      firstFrame: -1
+      lastFrame: 47
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Skeleton
+        weight: 1
+      - path: SkeletonRig
+        weight: 1
+      - path: SkeletonRig/foot_ik_l
+        weight: 1
+      - path: SkeletonRig/foot_ik_l/knee_pole_l
+        weight: 1
+      - path: SkeletonRig/foot_ik_r
+        weight: 1
+      - path: SkeletonRig/foot_ik_r/knee_pole_r
+        weight: 1
+      - path: SkeletonRig/root
+        weight: 1
+      - path: SkeletonRig/root/leg_upper_l
+        weight: 1
+      - path: SkeletonRig/root/leg_upper_l/leg_lower_l
+        weight: 1
+      - path: SkeletonRig/root/leg_upper_l/leg_lower_l/foot1_l
+        weight: 1
+      - path: SkeletonRig/root/leg_upper_l/leg_lower_l/foot1_l/foot2_l
+        weight: 1
+      - path: SkeletonRig/root/leg_upper_r
+        weight: 1
+      - path: SkeletonRig/root/leg_upper_r/leg_lower_r
+        weight: 1
+      - path: SkeletonRig/root/leg_upper_r/leg_lower_r/foot1_r
+        weight: 1
+      - path: SkeletonRig/root/leg_upper_r/leg_lower_r/foot1_r/foot2_r
+        weight: 1
+      - path: SkeletonRig/root/torso1
+        weight: 1
+      - path: SkeletonRig/root/torso1/torso2
+        weight: 1
+      - path: SkeletonRig/root/torso1/torso2/torso3
+        weight: 1
+      - path: SkeletonRig/root/torso1/torso2/torso3/neck1
+        weight: 1
+      - path: SkeletonRig/root/torso1/torso2/torso3/neck1/neck2
+        weight: 1
+      - path: SkeletonRig/root/torso1/torso2/torso3/neck1/neck2/head
+        weight: 1
+      - path: SkeletonRig/root/torso1/torso2/torso3/neck1/neck2/head/jaw
+        weight: 1
+      - path: SkeletonRig/root/torso1/torso2/torso3/shoulder_l
+        weight: 1
+      - path: SkeletonRig/root/torso1/torso2/torso3/shoulder_l/arm_upper_l
+        weight: 1
+      - path: SkeletonRig/root/torso1/torso2/torso3/shoulder_l/arm_upper_l/arm_lower_l
+        weight: 1
+      - path: SkeletonRig/root/torso1/torso2/torso3/shoulder_l/arm_upper_l/arm_lower_l/hand_l
+        weight: 1
+      - path: SkeletonRig/root/torso1/torso2/torso3/shoulder_r
+        weight: 1
+      - path: SkeletonRig/root/torso1/torso2/torso3/shoulder_r/arm_upper_r
+        weight: 1
+      - path: SkeletonRig/root/torso1/torso2/torso3/shoulder_r/arm_upper_r/arm_lower_r
+        weight: 1
+      - path: SkeletonRig/root/torso1/torso2/torso3/shoulder_r/arm_upper_r/arm_lower_r/hand_r
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: SkeletonFall
+      takeName: SkeletonFall
+      firstFrame: -1
+      lastFrame: 47
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Skeleton
+        weight: 1
+      - path: SkeletonRig
+        weight: 1
+      - path: SkeletonRig/foot_ik_l
+        weight: 1
+      - path: SkeletonRig/foot_ik_l/knee_pole_l
+        weight: 1
+      - path: SkeletonRig/foot_ik_r
+        weight: 1
+      - path: SkeletonRig/foot_ik_r/knee_pole_r
+        weight: 1
+      - path: SkeletonRig/root
+        weight: 1
+      - path: SkeletonRig/root/leg_upper_l
+        weight: 1
+      - path: SkeletonRig/root/leg_upper_l/leg_lower_l
+        weight: 1
+      - path: SkeletonRig/root/leg_upper_l/leg_lower_l/foot1_l
+        weight: 1
+      - path: SkeletonRig/root/leg_upper_l/leg_lower_l/foot1_l/foot2_l
+        weight: 1
+      - path: SkeletonRig/root/leg_upper_r
+        weight: 1
+      - path: SkeletonRig/root/leg_upper_r/leg_lower_r
+        weight: 1
+      - path: SkeletonRig/root/leg_upper_r/leg_lower_r/foot1_r
+        weight: 1
+      - path: SkeletonRig/root/leg_upper_r/leg_lower_r/foot1_r/foot2_r
+        weight: 1
+      - path: SkeletonRig/root/torso1
+        weight: 1
+      - path: SkeletonRig/root/torso1/torso2
+        weight: 1
+      - path: SkeletonRig/root/torso1/torso2/torso3
+        weight: 1
+      - path: SkeletonRig/root/torso1/torso2/torso3/neck1
+        weight: 1
+      - path: SkeletonRig/root/torso1/torso2/torso3/neck1/neck2
+        weight: 1
+      - path: SkeletonRig/root/torso1/torso2/torso3/neck1/neck2/head
+        weight: 1
+      - path: SkeletonRig/root/torso1/torso2/torso3/neck1/neck2/head/jaw
+        weight: 1
+      - path: SkeletonRig/root/torso1/torso2/torso3/shoulder_l
+        weight: 1
+      - path: SkeletonRig/root/torso1/torso2/torso3/shoulder_l/arm_upper_l
+        weight: 1
+      - path: SkeletonRig/root/torso1/torso2/torso3/shoulder_l/arm_upper_l/arm_lower_l
+        weight: 1
+      - path: SkeletonRig/root/torso1/torso2/torso3/shoulder_l/arm_upper_l/arm_lower_l/hand_l
+        weight: 1
+      - path: SkeletonRig/root/torso1/torso2/torso3/shoulder_r
+        weight: 1
+      - path: SkeletonRig/root/torso1/torso2/torso3/shoulder_r/arm_upper_r
+        weight: 1
+      - path: SkeletonRig/root/torso1/torso2/torso3/shoulder_r/arm_upper_r/arm_lower_r
+        weight: 1
+      - path: SkeletonRig/root/torso1/torso2/torso3/shoulder_r/arm_upper_r/arm_lower_r/hand_r
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
