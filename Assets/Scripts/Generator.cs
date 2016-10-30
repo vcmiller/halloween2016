@@ -69,7 +69,7 @@ public class Generator : MonoBehaviour {
             float rand = Random.value;
             if (rand < .2f && !previousGap) { // Gap
                 FloorChain gap;
-                gap.end = lastPlacement + Random.Range(2, 3);
+                gap.end = lastPlacement + Random.Range(1, 2);
                 gap.height = player.platformHeight;
                 gap.isGap = true;
                 chains.Enqueue(gap);
